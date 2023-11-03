@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    height: auto;
+    width: 100vw;
+}
+
+.offer {
+    color: red;
+    font-family: ital;
+    font-style: italic;
+}
+
+.value {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.offer-1 {
+    font-family: ital;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.value-1 {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+@media screen and (min-width:768px) {
+
+    .first-container {
+        background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+        background-size: cover;
+        height: auto;
+        width: 100vw;
+    }
+
+    .fourth-container {
+        background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+        background-size: cover;
+        height: auto;
+        width: 100vw;
+        color: #ffffff;
+        padding: 20px;
+    }
+
+    .third-container {
+        width: 100vw;
+    }
+
+    .main-hading {
+        font-family: "Roboto";
+        font-size: 30px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .head-container {
+        padding: 10px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    .card {
+        height: auto;
+        width: 400px;
+        background-color: #D5D0D0;
+        padding: 20px;
+    }
+
+    .lady-image {
+        height: 400px;
+    }
+
+    .card-heading {
+        color: #D51313;
+        font-family: "Roboto";
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .para-1 {
+        text-align: center;
+        color: #3D3E40;
+        font-size: 20px;
+    }
+
+    .para-2 {
+        color: #6B6666;
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+
+    .button {
+        background-color: #D51717;
+        height: 40px;
+        width: 230px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .fa-solid {
+        margin-right: 20px;
+    }
+
+    .para-3 {
+        text-align: center;
+        color: #0B1440;
+        font-size: 18px;
+    }
+
+    .button {
+        border-radius: 10px;
+        border-width: 0px;
+        height: 60px;
+        font-weight: bold;
+        font-size: 20px;
+        width: 240px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .companies-image {
+        height: 180;
+        width: 100vw;
+    }
+
+    .heading-2 {
+        text-align: center;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 25px;
+    }
+
+    .companies-image {
+        background-color: #B41D09;
+    }
+
+    .second-card-heading {
+        text-align: center;
+        color: #050E47;
+        font-weight: bold;
+    }
+
+    .unorder-list {
+        color: #050E47;
+        font-size: 20px;
+        font-family: "Roboto";
+        list-style-type: none;
+        margin-left: 20vw;
+    }
+
+    .list-item {
+        margin-bottom: 10px;
+    }
+
+    .para-4 {
+        color: #050E47;
+        font-family: "Roboto";
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .para-10 {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .meet-heading {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .profile-container {
+        display: flex;
+    }
+
+    .profile {
+        margin-left: 20px;
+        width: 30vw;
+
+    }
+
+    .heading-5 {
+        font-family: "Roboto";
+        font-size: 30px;
+    }
+
+    .position-para {
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+
+    .profile-4 {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 10px;
+        width: 100vw;
+    }
+
+    .last-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .last-heading-1 {
+        font-size: 30px;
+        font-family: "Roboto";
+        text-align: center;
+
+    }
+
+    .image-1 {
+
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 20vw;
+    }
+
+    .last-heading-2 {
+        font-size: 22px;
+        font-family: "Roboto";
+    }
+
+    .about-container {
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Roboto";
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .form-group-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .form-group-2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .modal-body {
+        width: 400px;
+    }
+
+    .submit-form-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .submit-button {
+        background-color: #F01F15;
+        border-radius: 10px;
+        border-width: 0px;
+        height: 40px;
+        width: 180px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .important {
+        color: red;
+    }
+
+    .modal-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .first-container {
+        background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+        background-size: cover;
+        height: auto;
+        width: 100vw;
+
+    }
+
+    .fourth-container {
+        background-image: url("https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg");
+        background-size: cover;
+        height: auto;
+        width: 100vw;
+        color: #ffffff;
+        padding: 20px;
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .head-container {
+        padding: 10px;
+    }
+
+    .main-hading {
+        font-family: "Roboto";
+        font-size: 25px;
+        color: #000000;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card {
+        height: auto;
+        width: 80vw;
+        background-color: #D5D0D0;
+        padding: 20px;
+    }
+
+    .lady-image {
+        height: 200px;
+
+    }
+
+    .lady-image-1 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        justify-content: flex-end;
+    }
+
+    .card-heading {
+        color: #D51313;
+        font-family: "Roboto";
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .para-1 {
+        text-align: center;
+        color: #3D3E40;
+        font-size: 20px;
+    }
+
+    .para-2 {
+        color: #6B6666;
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+
+    .button {
+        background-color: #D51717;
+        height: 60px;
+        width: 240px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .fa-solid {
+        margin-right: 20px;
+    }
+
+    .para-3 {
+        text-align: center;
+        color: #0B1440;
+        font-size: 18px;
+    }
+
+    .button {
+        border-radius: 10px;
+        border-width: 0px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .companies-image {
+        height: 130px;
+        width: 100vw;
+    }
+
+    .heading-2 {
+        text-align: center;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 25px;
+    }
+
+    .companies-image {
+        background-color: #B41D09;
+        height: 130px;
+    }
+
+    .second-card-heading {
+        text-align: center;
+        color: #050E47;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .unorder-list {
+        color: #050E47;
+        font-size: 20px;
+        font-family: "Roboto";
+        list-style-type: none;
+
+
+    }
+
+    .list-item {
+        margin-bottom: 10px;
+    }
+
+    .para-4 {
+        color: #050E47;
+        font-family: "Roboto";
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .para-10 {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .meet-heading {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .heading-5 {
+        font-family: "Roboto";
+        font-size: 30px;
+
+    }
+
+    .about-1 {
+        text-align: left;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 20px;
+    }
+
+    .position-para {
+        font-size: 20px;
+        font-family: "Roboto";
+
+    }
+
+
+
+    .profile-4 {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .last-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .last-heading-1 {
+        font-size: 30px;
+        font-family: "Roboto";
+        text-align: center;
+
+    }
+
+    .image-1 {
+        width: 80vw;
+    }
+
+    .last-heading-2 {
+        font-size: 22px;
+        font-family: "Roboto";
+    }
+
+    .about-container {
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Roboto";
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .form-group-3 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .name {
+        margin-bottom: 20px;
+    }
+
+    .form-group-2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .modal-body {
+        width: 400px;
+    }
+
+    .submit-form-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .submit-button {
+        background-color: #F01F15;
+        border-radius: 10px;
+        border-width: 0px;
+        height: 40px;
+        width: 180px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .important {
+        color: red;
+    }
+
+    .modal-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
